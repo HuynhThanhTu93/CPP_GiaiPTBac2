@@ -3,6 +3,20 @@
 
 #include <iostream>
 using namespace std;
+double TinhPTBac1(double a, double b)
+double x;
+{
+    if (a == 0)
+
+    {
+        if (b == 0)
+        {
+            cout << "PT vo nghiem";
+        }
+        else {
+            x = -b / a;
+            cout << x;
+}
 int main()
 {
     cout << "Giai phuong trinh bac: \n";
@@ -17,9 +31,12 @@ int main()
     double detla;
     if (a == 0)
     {
-        if (b == 0)
+        if (b == 0, c != 0)
         {
             cout << "PT vo nghiem";
+        }
+        else if (c == 0) {
+            cout << "PT vo so nghiem";
         }
         else {
              x1 = -c / b;
@@ -32,6 +49,10 @@ int main()
         if (detla < 0)
         {
             cout << "PT vo nghiem";
+        }
+        else if (detla == 0) {
+            x1 = x2 = -b / 2*a;
+            cout << x1;
         }
         else {
             if (detla >= 0) {
